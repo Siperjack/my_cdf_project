@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Specific Jupyter Notebooks to ignore
+auth.ipynb
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Poetry lock file
+poetry.lock

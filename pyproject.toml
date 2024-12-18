@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "my-cdf-project"
+version = "0.1.0"
+description = ""
+authors = ["Jo"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+cognite-sdk = "^7.70.6"
+pandas = "^2.2.3"
+matplotlib = "^3.10.0"
+ipykernel = "^6.29.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
